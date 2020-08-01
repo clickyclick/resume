@@ -19,7 +19,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Aidan Wilson}{ %\urlstyle{same}\href{http://example.com}{example.com}| \href{http://example2.co}{example2.co}\\
-\href{mailto:zatch.bell@hotmail.com}{zatch.bell@hotmail.com} | https://github.com/clickyclick |\href{tel:12897070114}{289.707.0114}
+\href{mailto:zatch.bell@hotmail.com}{zatch.bell@hotmail.com} | \href{https://github.com/clickyclick}{https://github.com/clickyclick} | \href{tel:12897070114}{289.707.0114}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -35,42 +35,47 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Education}
-
 \subsection{University of Waterloo}
-\descript{Bachelor of Math in Computer Science}
-\location{Dec 2020 | Waterloo, On, Canada}
+\descript{Bachelor of Computer Science, Honors}
+\location{April 2021 | Waterloo, Ontario, Canada}
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Skills}
-\subsection{Languages}
-JavaScript \textbullet{} C
-\textbullet{} Python \textbullet{} C++
-Java \textbullet{} Bash \textbullet{} HTML/ CSS
-\sectionsep
-
-\subsection{Technology}
-Git/Github \textbullet{} AWS \textbullet{} Linux \\
-UNIX \textbullet{} Windows \textbullet{} ROS \\
-Artificial Intelligence \textbullet{} Automation \\
-\sectionsep
+%Data Structures \\
+%Algorithms \\
+%OS \\
+%Concurrency \\
+%Security and Privacy \\
+%Applied Cryptography \\ 
+%Networks \\
+%Machine Learning \\
+%User Interfaces \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{Escrypt}
-\descript{| Embedded Security Intern }
+\runsubsection{Behaviour Interactive}
+\descript{| Game Programmer }
 \location{May 2020 – Aug 2020 | Waterloo, ON}
 \vspace{\topsep} 
 \begin{tightemize}
-\item Developed a cloud-based solution to automate and enhance the engineering process for network installation using AWS and Python.
-\item Worked with other teams to create a system to collect and visualize telemetry data of network elements in real time using AWS, Python, and DOMO.
-\item Consulted with other teams to jump start cloud-technology adoption and solutions throughout the company.
+\item Worked with an experienced team developing a custom hardware security module (HSM) for a major automotive manufacturer
+\item Created thorough unit tests using C-Unity and CMock to ensure quality and traceability when delivering features
+\end{tightemize}
+\sectionsep
+
+\section{Experience}
+\runsubsection{Escrypt}
+\descript{| Embedded Security Intern }
+\flushright
+\location{May 2020 – Aug 2020 | Waterloo, ON}
+\vspace{\topsep} 
+\begin{tightemize}
+\item Worked with an experienced team developing a custom hardware security module (HSM) for a major automotive manufacturer
+\item Created thorough unit tests using C-Unity and CMock to ensure quality and traceability when delivering features
+\item Developed low level code in C for microcontrollers, rigorously following MISRA C guidelines for security, portability, and reliability
+\item Participated in design discussions ensuring our strategy meets the specs of the project
 \end{tightemize}
 \sectionsep
 
@@ -78,9 +83,10 @@ Artificial Intelligence \textbullet{} Automation \\
 \descript{| Software Engineer Intern }
 \location{Sept 2019 – Dec 2019 | Kitchener, ON}
 \begin{tightemize}
-\item Participated on the Web Development Taskforce to provide AngularJS sites to internal customers.
-\item Participated in an internal CodeJam to prototype a blockchain application for managing a model supply-chain.
-\item Worked with a team to plan executive visit and team-building exercise for 200 employees.
+\item Implemented new features in node.js for the DOZR backend and the construction equipment rental management system
+\item Developed an invoicing micro-service which automated the creation and maintenance of all invoice data
+\item Advanced involvement in data modeling decisions around the implementation and modification of features such as  add-to-cart, equipment quotes, contracts, invoices, and orders
+\item Optimized inefficient mongoose queries by utilizing standard MongoDB principles, increasing speed of many requests on the rental management system by up to 100\%
 \end{tightemize}
 \sectionsep
 
@@ -88,19 +94,22 @@ Artificial Intelligence \textbullet{} Automation \\
 \descript{| Full Stack Engineer Intern }
 \location{Jan 2019 – April 2019 | Toronto, ON}
 \begin{tightemize}
-\item Interacted with clients to assess their problems and implement a solution in an efficient, friendly manner.
-\item Prepared workstations and laptops for future use by company employees.
-\item Created scripts to automate common tasks and increase productivity.
+\item Responsible for deployments and infrastructure of Web2PDF on AWS
+\item Implemented first stages of a new logged-in experience web app for Web2PDF with React frontend and node.js/express backend
+\item Developed new features and improvements to the core PDF creation engine
+\item Assisted PMs with design choices using extensive knowledge on the product from a previous work term at Veeva
+\item Produced the authoritative sources of documentation for architecture and technical details of Web2PDF
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Veeva}
-\descript{| QA Engineer Intern }
+\descript{| Automation Engineer Intern }
 \location{April 2018 – Aug 2018 | Toronto, ON}
 \begin{tightemize}
-\item Participated on the Web Development Taskforce to provide AngularJS sites to internal customers.
-\item Participated in an internal CodeJam to prototype a blockchain application for managing a model supply-chain.
-\item Worked with a team to plan executive visit and team-building exercise for 200 employees.
+\item Managed, created and maintained all test cases and testing suites for the Web2PDF product
+\item Increased automation coverage by over 50\% for Web2PDF
+\item Implemented new automation testing suites from scratch for UI (Selenium) and performance testing
+\item Worked closely with developers and project managers to steer this beta product towards success
 \end{tightemize}
 \sectionsep
 
@@ -112,28 +121,41 @@ Artificial Intelligence \textbullet{} Automation \\
 \runsubsection{Keyboard Boy}
 \descript{| Keylogger}
 \location{2020 | Python, Google Cloud, Windows, Linux}
-\begin{tightemize}
-\item Lead the development of \textbf{\href{https://github.com/ZDTaylor/ChitChat}{Chit Chat}}, an anonymous chat application created as a class project.
-\item Chit Chat provides real-time communication while utilizing a PHP backend and AngularJS frontend.
-\end{tightemize}
-\sectionsep
+%\begin{tightemize}
+%\item Blah
+%\item Blah
+%\end{tightemize}
+\sectionsep              
 
 \runsubsection{Wat Improve}
 \descript{| Strawpoll-like webapp}
 \location{2019 | Node.js, React, AWS, MongoDB, HTML/CSS}
-\begin{tightemize}
-\item Spearhead the development effort for the path-planning functionality of a team of three robots.
-\item ROS provides movement servers and the planning is being implemented in Python to allow for fully-autonomous operation.
-\end{tightemize}
+%\begin{tightemize}
+%\item Blah
+%\item Blah
+%\end{tightemize}
 \sectionsep
 
 \runsubsection{Easy Hirgana}
-\descript{| Class Project for Distributed Client-Server Programming}
+\descript{| Chrome Extension}
 \location{2017/2018 | Javascript, HTML/CSS}
-\begin{tightemize}
-\item Lead the development of \textbf{\href{https://github.com/ZDTaylor/ChitChat}{Chit Chat}}, an anonymous chat application created as a class project.
-\item Chit Chat provides real-time communication while utilizing a PHP backend and AngularJS frontend.
-\end{tightemize}
+%\begin{tightemize}
+%\item Blah
+%\item Blah
+%\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\runsubsection{Languages:}
+JavaScript, C, C++, Java, Python, Bash, HTML/CSS
+\sectionsep
+
+\runsubsection{Technology:}
+Node.js, AWS, React, SQL, MongoDB, GDB, Git, Automotive Microcontrollers, \LaTeX
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
