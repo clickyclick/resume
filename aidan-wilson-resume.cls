@@ -39,23 +39,37 @@ Last Updated on \today
 \end{textblock}}
 
 % Name command
-\newcommand{\namesection}[2]{
-\centering{
+\newcommand{\namesection}[1]{
+\raggedright{
 \fontsize{24pt}{30pt}
 \fontspec[Path = fonts/lato/]{Lato-Bol}\selectfont #1
-} \\[5pt]
-\centering{
+}
+}
+
+% header info command
+\newcommand{\headerinfosection}[1]{
+\raggedright{
 \color{headings}
-\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #2}
-\noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
-\vspace{-15pt}
+\fontspec[Path = fonts/raleway/]{Raleway-Medium}
+\fontsize{10pt}{12pt}\selectfont #1
+}
+}
+
+
+% Contact info command
+\newcommand{\contactsection}[1]{
+\raggedleft{
+\color{headings}
+\fontspec[Path = fonts/raleway/]{Raleway-Medium}
+\fontsize{10pt}{12pt}\selectfont #1
+}
 }
 
 % Section seperators
 \usepackage{titlesec}
 \titlespacing{\section}{0pt}{0pt}{0pt}
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
-\newcommand{\sectionsep}{\vspace{8pt}}
+\newcommand{\sectionsep}{\vspace{6pt}}
 
 % Headings command
 \titleformat{\section}{\color{headings}
