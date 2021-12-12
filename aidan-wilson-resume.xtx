@@ -1,7 +1,7 @@
 \documentclass[]{aidan-wilson-resume}
 \usepackage{fancyhdr}
 \usepackage{fontspec}
-\usepackage[fixed]{fontawesome5}
+\usepackage{fontawesome5}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -15,34 +15,36 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \noindent
-\begin{minipage}[t]{0.60\textwidth}
-\namesection
-{
-Aidan Wilson
-}
+\hspace{-4pt}
+%\begin{minipage}[t]{0.60\textwidth}
+\namesection{Aidan Wilson}
 
 \vspace{5pt}
-
-\headerinfosection
-{
-Fresh grad software engineer from a top Canadian tech university, with 20 months of professional experience. 
-Proven ability to ramp up fast from many 4-month internships in diverse roles and industries. 
-Willing to relocate.
-}
-\end{minipage}\begin{minipage}[t]{0.40\textwidth}
+%\headerinfosection
+%{
+%Recent software engineer graduate from a top-tier Canadian technology university, with almost two years of professional experience. 
+%Proven ability to ramp up fast from many 4-month internships in diverse roles and industries. 
+%Willing to relocate.
+%}
+%\end{minipage}\begin{minipage}[t]{0.40\textwidth}
+\hspace{-23pt}
 \contactsection
-{
-\href{mailto:atdwilso@uwaterloo.ca}{atdwilso@uwaterloo.ca} \faEnvelope\\ 
-\href{tel:12897070114}{1.289.707.0114} \faPhone\\
-Toronto Area, Ontario, Canada \faMapMarker\\
-\href{https://www.linkedin.com/in/aidantdwilson/}{linkedin.com/in/AidanTDWilson} \faLinkedin\\
-\href{https://github.com/clickyclick}{github.com/clickyclick} \faGithub\\
+{\faEnvelope{ } \href{mailto:atdwilso@uwaterloo.ca}{atdwilso@uwaterloo.ca} \hspace{5pt} \faPhone{ } \href{tel:12897070114}{1.289.707.0114} \hspace{5pt}  \faMapMarker{ } Toronto, Ontario, Canada 
+%(Relocating to Tokyo, Japan)} 
+%(Relocating to Boston, MA)} 
+%(open to relocation)}
 }
-\end{minipage}
 
-\vspace{10pt}
-\noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
-\vspace{-15pt}
+%\href{https://www.linkedin.com/in/aidantdwilson/}{linkedin.com/in/AidanTDWilson} \faLinkedin
+%\href{https://github.com/clickyclick}{github.com/clickyclick} \faGithub\\
+
+%\end{minipage}
+
+%\vspace{5pt}
+\noindent
+%\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
+\rule{\linewidth}{.1pt}
+%\vspace{-15pt}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -53,69 +55,6 @@ Toronto Area, Ontario, Canada \faMapMarker\\
 
 %\begin{minipage}[t]{1.0\textwidth}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EXPERIENCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Experience}
-\noindent
-\hspace{-3.5pt} %hack
-\runsubsection{Behaviour Interactive}
-\descript{| Game Developer Intern}
-\location{Sept 2020 – Dec 2020 | Montreal, QC}
-\vspace{\topsep} 
-\begin{tightemize}
-\item Worked on the massively popular online game Dead by Daylight, top 20 most played game on Steam
-\item Made extensive performance improvements to menus used by millions of weekly players by investigating the UI engine, scaleform, and performing reworks on problem areas. These changes reduced lag spikes by 80\% for console players
-\item Developed new menus/HUD with Unreal Motion graphics UI framework, implemented a new feature in the game settings for users to scale their menus and HUD 
-\item Provided bug support before releases, working on all areas of the game such as UI, Gameplay, Engine, Sound
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Escrypt Bosch}
-\descript{| Embedded Security Intern }
-\location{May 2020 – Aug 2020 | Waterloo, ON}
-\begin{tightemize}
-\item Worked with an experienced team developing a custom hardware security module (HSM) for General Motors
-\item Created thorough unit tests using C-Unity and CMock to ensure quality and traceability when delivering features
-\item Developed low level code in C for microcontrollers, rigorously following MISRA C guidelines for security, portability, and reliability
-\item Produced architecture designs and documentation to ensure our code met the formal specs
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Dozr}
-\descript{| Software Engineer Intern }
-\location{Sept 2019 – Dec 2019 | Kitchener, ON}
-\begin{tightemize}
-\item Implemented new features in node.js for the DOZR backend and the construction equipment rental management system
-\item Developed an invoicing micro-service which automated the creation and maintenance of all invoice data
-\item Advanced involvement in data modeling decisions around the implementation and modification of features such as  add-to-cart, equipment quotes, contracts, invoices, and orders
-\item Optimized inefficient mongoose queries by utilizing standard MongoDB principles, increasing speed of many requests on the rental management system by up to 100\%
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Veeva}
-\descript{| Full Stack Engineer Intern }
-\location{Jan 2019 – April 2019 | Toronto, ON}
-\begin{tightemize}
-\item Responsible for deployments and infrastructure of Web2PDF on AWS
-\item Implemented first stages of a new logged-in experience web app for Web2PDF with React frontend and node.js/express backend
-\item Developed new features and improvements to the core PDF creation engine
-\item Assisted PMs with design choices using extensive knowledge on the product from a previous work term at Veeva
-\item Produced the authoritative sources of documentation for architecture and technical details of Web2PDF
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Veeva}
-\descript{| Automation Engineer Intern }
-\location{April 2018 – Aug 2018 | Toronto, ON}
-\begin{tightemize}
-\item Managed, created and maintained all test cases and testing suites for the Web2PDF product
-\item Increased automation coverage by over 50\% for Web2PDF
-\item Implemented new automation testing suites from scratch for UI (Selenium) and performance testing
-\item Worked closely with developers and project managers to steer this beta product towards success
-\end{tightemize}
-\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -124,22 +63,96 @@ Toronto Area, Ontario, Canada \faMapMarker\\
 \section{Education}
 \subsection{University of Waterloo}
 \descript{Bachelor of Computer Science, Honors, Co-op. Minor in History.}
-\location{Graduation April 2021 | Waterloo, Ontario, Canada}
+\location{Graduation April 2021 | Waterloo, ON, Canada}
+
+\sectionsep
+\textbf{Coursework:}
+Data Structures \textbullet\
+Algorithms \textbullet\
+OS \textbullet\
+Concurrency \textbullet\
+Security and Privacy \textbullet\
+OOP \textbullet\
+Databases \textbullet\ 
+Networks \textbullet\ \\
+%\hspace{2cm}
+ Machine Learning \textbullet\
+Graph Theory \textbullet\
+Logic \textbullet\
+User Interfaces \\
+
 \sectionsep
 
-%Coursework: 
-%Data Structures \textbullet\
-%Algorithms \textbullet\
-%OS \textbullet\
-%Concurrency \textbullet\
-%Security and Privacy \textbullet\
-%OOP \textbullet\
-%Databases \textbullet\ 
-%Networks \textbullet\ \\
-%\hspace{2cm} Machine Learning \textbullet\
-%Graph Theory \textbullet\
-%Logic \textbullet\
-%User Interfaces \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\noindent
+%\hspace{-3.5pt} %hack
+
+\runsubsection{Behaviour Interactive}
+\descript{| Game Developer (C++)}
+\location{Sept 2020 – Dec 2020 | Montreal, QC, Canada}
+\begin{tightemize}
+\item Worked on the popular online game Dead by Daylight on the Systems and UI team. Dead by Daylight is a 1 VS 4 assymetric horror game with 3 million weekly active users, it is consistently in the top 15 most played games on Steam.
+\item Led the development of the Halloween 2021 special event UI, worked closely with Gameplay and Art team to deliver an event which was the most successful to date. Store revenues and weekly active players went up 12 percent and 25 percent respecively during the two week event.
+\item Created the mission-critical Archives menu in UMG (Unreal Motion Graphics), all players interact with the Archives for their player progression. Implemented using Model-View-Presenter pattern, with specific focus on perforamance and maintainability due to the evolving nature of an online game.
+\item Worked on development of 5 DLC packs, including Resident Evil, Hellraiser, BirdLady, Ringu
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Behaviour Interactive}
+\descript{| Game Developer Intern (C++, ActionScript)}
+\location{Sept 2020 – Dec 2020 | Montreal, QC, Canada}
+\begin{tightemize}
+\item Worked on the popular online game Dead by Daylight, top 20 most played game on Steam
+\item Developed new menus in C++ with Unreal Motion Graphics UI framework, implemented a new feature in the game settings for users to scale their menus and HUD 
+\item Reduced lag spikes by 80\% for console players by making extensive performance improvements to loadout menus used by millions players. Investigated best practices of the UI framework, and performed reworks on problem areas
+\item Provided bug fixes prior to releases, working on all areas of the game such as UI, Gameplay, Engine, Sound
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Escrypt Bosch}
+\descript{| Embedded Security Intern (C, Python)}
+\location{May 2020 – Aug 2020 | Waterloo, ON, Canada}
+\begin{tightemize}
+\item Worked with an experienced team developing a custom hardware security module (HSM) for General Motors
+\item Developed low level code in C for microcontrollers, rigorously following MISRA C guidelines for security, portability, and reliability
+\item Produced architecture designs and documentation to ensure code met the formal specifications 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Dozr}
+\descript{| Software Engineer Intern (Node.js, React, MongoDB)}
+\location{Sept 2019 – Dec 2019 | Kitchener, ON, Canada}
+\begin{tightemize}
+\item Dozr is a construction equipment rental software startup, like Airbnb but for construction equipment
+\item Developed an invoicing module in Node.js which automated the creation and maintenance of all invoice data
+\item Advanced involvement in data modeling decisions around the implementation and modification of features such as add-to-cart, equipment prices, contracts, invoices, and orders
+\item Optimized inefficient mongoose queries by utilizing standard MongoDB principles, increasing speed of many requests on the rental management system by up to 2X
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Veeva}
+\descript{| Full Stack Engineer Intern (Node.js, React, AWS)}
+\location{Jan 2019 – April 2019 | Toronto, ON, Canada}
+\begin{tightemize}
+\item Responsible for deployments and infrastructure of Web2PDF on AWS
+\item Implemented first stages of a new logged-in experience web app for Web2PDF with React frontend and node.js/express backend. Designed the schema and architecture for the data model.
+\item Developed new features and improvements to the core PDF creation engine such as custom page height and mobile viewport support
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Veeva}
+\descript{| Automation Engineer Intern (Java)}
+\location{April 2018 – Aug 2018 | Toronto, ON, Canada}
+\begin{tightemize}
+\item Managed, created and maintained all test cases and testing suites for the Web2PDF product
+\item Increased automation coverage by over 50\% for Web2PDF
+\item Implemented new automation testing suites in Java for UI (Selenium) and performance testing
+\end{tightemize}
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROJECTS
@@ -179,11 +192,11 @@ Toronto Area, Ontario, Canada \faMapMarker\\
 
 \section{Skills}
 \runsubsection{Languages:}
-JavaScript, C, C++, ActionScript, Java, Python, Bash
+C++, C, JavaScript, ActionScript3, Python Java
 \sectionsep
 
 \runsubsection{Technology:}
-Node.js, AWS, React, SQL, MongoDB, GDB, Git, Unreal, UMG UI, Scaleform, \LaTeX, Flash, Selenium
+ Unreal, UMG UI, Node.js, GDB, Git, Perforce, Scaleform, AWS, React, SQL, MongoDB, \LaTeX, Selenium
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

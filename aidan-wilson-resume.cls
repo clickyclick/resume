@@ -14,7 +14,7 @@
 
 % Publications
 \usepackage{cite}
-\renewcommand\refname{\vskip -1.5cm}
+%\renewcommand\refname{\vskip -1.5cm}
 
 % Color definitions
 \usepackage[usenames,dvipsnames]{xcolor}
@@ -35,34 +35,27 @@
 \setlength{\TPVertModule}{1mm}
 \newcommand{\lastupdated}{\begin{textblock}{60}(155,5)
 \color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont
-Last Updated on \today
 \end{textblock}}
 
 % Name command
 \newcommand{\namesection}[1]{
-\raggedright{
 \fontsize{24pt}{30pt}
 \fontspec[Path = fonts/lato/]{Lato-Bol}\selectfont #1
-}
 }
 
 % header info command
 \newcommand{\headerinfosection}[1]{
-\raggedright{
 \color{headings}
 \fontspec[Path = fonts/raleway/]{Raleway-Medium}
 \fontsize{10pt}{12pt}\selectfont #1
-}
 }
 
 
 % Contact info command
 \newcommand{\contactsection}[1]{
-\raggedleft{
 \color{headings}
 \fontspec[Path = fonts/raleway/]{Raleway-Medium}
 \fontsize{10pt}{12pt}\selectfont #1
-}
 }
 
 % Section seperators
@@ -73,7 +66,7 @@ Last Updated on \today
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{20pt}\selectfont \raggedright\uppercase}{}{0em}{}
+\scshape\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{20pt}\selectfont \uppercase}{}{0em}{}
 
 % Subeadings command
 \titleformat{\subsection}{
@@ -84,11 +77,11 @@ Last Updated on \today
 
 % Descriptors command
 \newcommand{\descript}[1]{
-\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
 
 % Location command
 \newcommand{\location}[1]{
-\color{subheadings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{
